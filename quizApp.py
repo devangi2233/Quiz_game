@@ -67,7 +67,7 @@ class Quiz:
 		q_no.place(x=70, y=100)
 
 	def display_title(self):
-		title = Label(gui, text="Pythin Quiz",
+		title = Label(gui, text="Python Quiz",
 		width=90, bg="black",fg="white", font=("ariel", 20, "bold"))
 		title.pack(side=TOP)
     
@@ -93,7 +93,7 @@ def call():
 
 gui = Tk()
 gui.geometry("1000x400")
-gui.title("DBMS Quiz")
+gui.title("Python Quiz")
 
 with open('data.json') as f:
 	data = json.load(f)
